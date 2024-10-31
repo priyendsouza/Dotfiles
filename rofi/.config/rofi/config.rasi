@@ -1,0 +1,13 @@
+configuration{
+    modi: "drun";
+    icon-theme: "Papirus-Dark";
+    show-icons: true;
+    terminal: "alacritty";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "";
+    sidebar-mode: false;
+}
+
+@theme "catppuccin-mocha"
