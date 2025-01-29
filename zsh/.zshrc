@@ -16,11 +16,11 @@ plugins=(git
 	command-not-found
 	common-aliases
 	alias-finder
+	ubuntu
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 	battery
 	sudo
-	dnf
 	)
 
 source $ZSH/oh-my-zsh.sh
@@ -51,3 +51,6 @@ export EDITOR='nvim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH=$PATH:/home/slenderboy/.spicetify
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

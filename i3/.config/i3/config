@@ -33,8 +33,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper/wall.jpg
 
 # start xfce4 notifyd
-# exec --no-startup-id /usr/lib64/xfce4/notifyd/xfce4-notify
-exec --no-startup-id dunst
+exec --no-startup-id /usr/lib64/xfce4/notifyd/xfce4-notify
+# exec --no-startup-id dunst
+exec_always --no-startup-id xfsettingsd
 
 # start nm-applet
 exec --no-startup-id nm-applet
